@@ -7,7 +7,7 @@
 
 #define PROC_MOUNTINFO "/proc/self/mountinfo"
 
-static char *TRACING_DIR = NULL;
+static char *TRACING_DIR = "/sys/kernel/tracing";
 
 static bool find_tracing_dir(void)
 {
